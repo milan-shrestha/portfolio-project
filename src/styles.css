@@ -1,1 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+
+:root{
+    --black: #0B0C10;
+    --green: #66FCF1;
+}
