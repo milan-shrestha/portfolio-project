@@ -1,5 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&family=Lato&family=Montserrat&family=Roboto&display=swap');
+
 :root{
     --black: #0B0C10;
     --green: #66FCF1;
