@@ -1,0 +1,16 @@
+.navbar{
+    background-color: var(--black) !important;
+}
+
+.navbar-brand, .nav-link{
+    color: var(--green) !important;
+}
+
+.navbar-nav{
+    text-align: right;
+}
+
+.navbar-toggler, .navbar-toggler-icon{
+    border-color: var(--green) !important;
+    background-color: var(--green) !important;
+}
