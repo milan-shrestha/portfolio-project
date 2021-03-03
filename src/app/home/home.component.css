@@ -1,0 +1,13 @@
+.home-text-container{
+    width: 500px;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.display-6{
+    color: var(--green);
+}
+
+.display-4{
+    color: var(--white);
+}
