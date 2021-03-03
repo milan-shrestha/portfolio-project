@@ -17,9 +17,18 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Montserrat', sans-serif;
 }
 
+h3{
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
 p{
     font-family: 'Montserrat', sans-serif;
     color: var(--light-grey);
+}
+
+.lead{
+    font-size: 1.15rem;
 }
 
 .jumbotron{
