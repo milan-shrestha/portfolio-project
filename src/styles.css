@@ -5,4 +5,24 @@
 :root{
     --black: #0B0C10;
     --green: #66FCF1;
+    --light-grey: #C5C6C7;
+    --white: #F2F2F2;
+}
+
+body{
+    background-color: var(--black);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--light-grey);
+}
+
+.jumbotron{
+    margin: 35px 0;
+    background-color: var(--black) !important;
 }
