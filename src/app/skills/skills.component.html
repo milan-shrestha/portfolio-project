@@ -1,1 +1,39 @@
-<p>skills works!</p>
+<div id="skills" class="container">
+    <div class="jumbotron">
+        <h3 class="font-weight-bold">Skills I've learned so far</h3>
+        <p class="lead">I've fondational knowledge in JavaScript and Java languages. I have learned some frameworks and 
+            utilities during my learning process. Below is the complete list of technical skills I've gained so far.</p>
+        <div class="skills-list-container">
+            <h5 class="font-weight-bold">Programming Languages</h5>
+            <ul class="list-inline">
+                <li class="list-inline-item" *ngFor="let language of languages">
+                    <img class="img-fluid skills-logo" src="../../assets/images/{{language}}">
+                </li>
+            </ul>
+        </div>
+        <div class="skills-list-container">
+            <h5 class="font-weight-bold">Frameworks</h5>
+            <ul class="list-inline">
+                <li class="list-inline-item" *ngFor="let framework of frameworks">
+                    <img class="img-fluid skills-logo" src="../../assets/images/{{framework}}">
+                </li>
+            </ul>
+        </div>
+        <div class="skills-list-container">
+            <h5 class="font-weight-bold">Database</h5>
+            <ul class="list-inline">
+                <li class="list-inline-item" *ngFor="let database of databases">
+                    <img class="img-fluid skills-logo" src="../../assets/images/{{database}}">
+                </li>
+            </ul>
+        </div>
+        <div class="skills-list-container">
+            <h5 class="font-weight-bold">Tools</h5>
+            <ul class="list-inline">
+                <li class="list-inline-item" *ngFor="let tool of tools">
+                    <img class="img-fluid skills-logo" src="../../assets/images/{{tool}}">
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

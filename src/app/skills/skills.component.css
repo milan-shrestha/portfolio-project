@@ -1,0 +1,15 @@
+h5{
+    color: var(--white);
+    margin-bottom: 15px;
+}
+
+li{
+    color: var(--white);
+}
+
+.skills-logo{
+    width: 75px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
