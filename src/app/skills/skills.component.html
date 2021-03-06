@@ -7,7 +7,8 @@
             <h5 class="font-weight-bold">Programming Languages</h5>
             <ul class="list-inline">
                 <li class="list-inline-item" *ngFor="let language of languages">
-                    <img class="img-fluid skills-logo" src="../../assets/images/{{language}}">
+                    <img class="img-fluid skills-logo mx-auto d-block" src="../../assets/images/{{language}}">
+                    <p class="font-weight-bold text-center">{{language.substring(0, language.length-4)}}</p>
                 </li>
             </ul>
         </div>
@@ -15,7 +16,8 @@
             <h5 class="font-weight-bold">Frameworks</h5>
             <ul class="list-inline">
                 <li class="list-inline-item" *ngFor="let framework of frameworks">
-                    <img class="img-fluid skills-logo" src="../../assets/images/{{framework}}">
+                    <img class="img-fluid skills-logo mx-auto d-block" src="../../assets/images/{{framework}}">
+                    <p class="font-weight-bold text-center">{{framework.substring(0, framework.length-4)}}</p>
                 </li>
             </ul>
         </div>
@@ -23,7 +25,8 @@
             <h5 class="font-weight-bold">Database</h5>
             <ul class="list-inline">
                 <li class="list-inline-item" *ngFor="let database of databases">
-                    <img class="img-fluid skills-logo" src="../../assets/images/{{database}}">
+                    <img class="img-fluid skills-logo mx-auto d-block" src="../../assets/images/{{database}}">
+                    <p class="font-weight-bold text-center">{{database.substring(0, database.length-4)}}</p>
                 </li>
             </ul>
         </div>
@@ -31,7 +34,8 @@
             <h5 class="font-weight-bold">Tools</h5>
             <ul class="list-inline">
                 <li class="list-inline-item" *ngFor="let tool of tools">
-                    <img class="img-fluid skills-logo" src="../../assets/images/{{tool}}">
+                    <img class="img-fluid skills-logo mx-auto d-block" src="../../assets/images/{{tool}}">
+                    <p class="font-weight-bold text-center">{{tool.substring(0, tool.length-4)}}</p>
                 </li>
             </ul>
         </div>

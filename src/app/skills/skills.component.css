@@ -7,9 +7,12 @@ li{
     color: var(--white);
 }
 
+.list-inline-item{
+    margin-right: 20px;
+}
+
 .skills-logo{
-    width: 75px;
+    width: 50px;
     height: auto;
-    margin-right: 10px;
     margin-bottom: 10px;
 }
