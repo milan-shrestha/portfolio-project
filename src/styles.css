@@ -28,10 +28,10 @@ p{
 }
 
 .lead{
-    font-size: 1.15rem;
+    font-size: 1.1rem;
 }
 
 .jumbotron{
-    margin: 35px 0;
+    margin: 50px 0;
     background-color: var(--black) !important;
 }
