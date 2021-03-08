@@ -5,6 +5,33 @@
             looking for employment opportunities</span> while also keeping myself busy with side projects and continuing
              learning. My inbox is always open for your questions, comments and suggestions.
         </p>
-        <button class="contact-btn">Contact Me</button>
+        <button type="button" class="contact-btn" data-toggle="modal" data-target="#contactForm">Contact Me</button>
     </div>
 </div>
+
+<div class="modal fade" id="contactForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Contact Me</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
+              <div class="form-group">
+                <input type="text" class="form-control" name="Fullname" placeholder="Full Name" formControlName="Fullname">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="Email" placeholder="Email Address" formControlName="Email">
+              </div>
+              <div class="form-group">
+                <textarea type="text" class="form-control" name="Message" placeholder="Your message" formControlName="Message" rows=10></textarea>
+              </div>
+              <button type="submit" class="btn btn-success btn-block" [disabled]="!FormData.valid">Send</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
