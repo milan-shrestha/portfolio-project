@@ -1,1 +1,26 @@
-<p>projects works!</p>
+<div id="projects" class="container">
+    <h3 class="font-weight-bold">Some Projects I've build</h3>
+    <div *ngFor="let project of projects">
+        <div class="row project-container">
+            <div class="col-md-6">
+                <div class="project-image-container">
+                    <img class="img-fluid project-image" src="../../assets/images/{{project.img}}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project-details">
+                    <h5 class="font-weight-bold">{{project.title}}</h5>
+                    <p>{{project.description}}</p>
+                    <h6>Technologies Used</h6>
+                    <ul class="list-inline">
+                        <li class="list-inline-item" *ngFor="let tech of project.technologies">{{tech}}</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="{{project.github-link}}">Github</a>
+                        <a href="{{project.live-link}}">Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>>

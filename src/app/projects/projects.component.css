@@ -1,0 +1,24 @@
+.project-container{
+    margin: 25px 0;
+}
+
+.project-image-container{
+    display: block;
+    margin: 0 auto;
+    background-color: var(--green);
+}
+
+.project-image{
+    display: block;
+    margin: 0 auto;
+    opacity: 0.3;
+}
+
+.project-image:hover{
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+h5, h6, li{
+    color: var(--white);
+}
