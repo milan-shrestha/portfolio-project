@@ -11,6 +11,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 import { ContactService } from './contact.service';
 import { ProjectsComponent } from './projects/projects.component';
+import { ExternalLinkDirective } from './external-link.directive';
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
@@ -22,6 +23,7 @@ import { FooterComponent } from './footer/footer.component';
     SkillsComponent,
     ContactComponent,
     ProjectsComponent,
+    ExternalLinkDirective,
     FooterComponent
   ],
   imports: [
