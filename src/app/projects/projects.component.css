@@ -6,11 +6,13 @@
     display: block;
     margin: 0 auto;
     background-color: var(--green);
+    border-radius: 3px;
 }
 
 .project-image{
     display: block;
     margin: 0 auto;
+    border-radius: 3px;
     opacity: 0.3;
 }
 
@@ -21,4 +23,34 @@
 
 h5, h6, li{
     color: var(--white);
+}
+
+.project-details{
+
+}
+
+.project-description{
+    background-color: #232736;
+    padding: 15px 10px 5px 75px;
+    margin: 20px 0 25px -75px;
+    border-radius: 5px;
+}
+
+p{
+    color: var(--white);
+}
+
+.tech-list{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 15px;
+    color: var(--light-grey);
+}
+
+.links-logo{
+    width: 55px;
+    height: auto;
+    margin: 0 10px 10px 0;
+    border: 1.5px solid var(--green);
+    border-radius: 3px;
+    padding: 5px 15px;
 }
