@@ -12,6 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ContactService } from './contact.service';
 import { ProjectsComponent } from './projects/projects.component';
 import { ExternalLinkDirective } from './external-link.directive';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ExternalLinkDirective } from './external-link.directive';
     SkillsComponent,
     ContactComponent,
     ProjectsComponent,
-    ExternalLinkDirective 
+    ExternalLinkDirective,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
