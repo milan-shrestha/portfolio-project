@@ -22,3 +22,12 @@
 h5, h6, li{
     color: var(--white);
 }
+
+.links-logo{
+    width: 75px;
+    height: auto;
+    margin: 0 10px 10px 0;
+    border: 1.5px solid var(--green);
+    border-radius: 3px;
+    padding: 7px 20px;
+}
