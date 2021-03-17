@@ -13,6 +13,7 @@ import { ContactService } from './contact.service';
 import { ProjectsComponent } from './projects/projects.component';
 import { ExternalLinkDirective } from './external-link.directive';
 import { FooterComponent } from './footer/footer.component';
+import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './footer/footer.component';
     ContactComponent,
     ProjectsComponent,
     ExternalLinkDirective,
-    FooterComponent
+    FooterComponent,
+    LeftSidebarComponent
   ],
   imports: [
     BrowserModule,
