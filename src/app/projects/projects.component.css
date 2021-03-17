@@ -25,8 +25,15 @@ h5, h6, li{
     color: var(--white);
 }
 
-.project-details{
+.project-details-container{
+    position: relative;
+}
 
+.project-details{
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .project-description{
@@ -34,6 +41,10 @@ h5, h6, li{
     padding: 15px 10px 5px 75px;
     margin: 20px 0 25px -75px;
     border-radius: 5px;
+}
+
+.project-title{
+    color: var(--green);
 }
 
 p{
@@ -49,7 +60,7 @@ p{
 .links-logo{
     width: 55px;
     height: auto;
-    margin: 0 10px 10px 0;
+    margin-right: 10px;
     border: 1.5px solid var(--green);
     border-radius: 3px;
     padding: 5px 15px;
