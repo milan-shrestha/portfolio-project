@@ -15,6 +15,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ExternalLinkDirective } from './external-link.directive';
 import { FooterComponent } from './footer/footer.component';
 import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
+import { RightSidebarComponent } from './right-sidebar/right-sidebar.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
     ProjectsComponent,
     ExternalLinkDirective,
     FooterComponent,
-    LeftSidebarComponent
+    LeftSidebarComponent,
+    RightSidebarComponent
   ],
   imports: [
     BrowserModule,
