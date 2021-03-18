@@ -13,7 +13,7 @@
 .sidebar-contents{
     position: absolute;
 	bottom: 0;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 ul{
@@ -29,5 +29,9 @@ li{
 
 .social-logo{
     color: var(--green);
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+}
+
+.social-logo:hover{
+    color: var(--white);
 }
