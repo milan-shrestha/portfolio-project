@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faGithub, faTwitter, faLinkedinIn, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-left-sidebar',
