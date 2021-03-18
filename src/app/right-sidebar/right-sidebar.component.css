@@ -1,0 +1,36 @@
+.right-sidebar{
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: var(--black);
+    overflow-x: hidden;
+    margin-top: 50px;
+}
+
+.sidebar-contents{
+    position: absolute;
+	bottom: 0;
+    margin-bottom: 50px;
+}
+
+a{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-decoration: none;
+    font-family: 'Aleo', sans-serif;
+    color: var(--green);
+}
+
+a:hover{
+    color: var(--white);
+}
+
+.vertical-line{
+    border-left: 2px solid var(--green);
+    height: 150px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
