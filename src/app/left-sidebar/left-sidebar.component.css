@@ -35,3 +35,10 @@ li{
 .social-logo:hover{
     color: var(--white);
 }
+
+.vertical-line{
+    border-right: 2px solid var(--green);
+    height: 150px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
