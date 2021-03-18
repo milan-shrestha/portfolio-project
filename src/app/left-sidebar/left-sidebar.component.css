@@ -13,5 +13,21 @@
 .sidebar-contents{
     position: absolute;
 	bottom: 0;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
+}
+
+ul{
+    width: 50px;
+    display: table;
+    margin: 0 auto;
+}
+
+li{
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.social-logo{
+    color: var(--green);
+    font-size: 1.75rem;
 }
