@@ -18,6 +18,7 @@
 .nav-item{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .active{
