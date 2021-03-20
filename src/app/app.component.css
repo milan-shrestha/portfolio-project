@@ -6,6 +6,11 @@
     color: var(--green) !important;
 }
 
+.logo{
+    width: 50px;
+    margin-left: 10px;
+}
+
 .navbar-nav{
     text-align: right;
 }
