@@ -1,0 +1,28 @@
+.navbar{
+    background-color: var(--black) !important;
+}
+
+.navbar-brand, .nav-link{
+    color: var(--green) !important;
+}
+
+.navbar-nav{
+    text-align: right;
+}
+
+.navbar-toggler, .navbar-toggler-icon{
+    border-color: var(--green) !important;
+    background-color: var(--green) !important;
+}
+
+.nav-item{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.active{
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    background-color: var(--green);
+    color: var(--black) !important;
+}
