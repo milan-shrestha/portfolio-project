@@ -50,3 +50,18 @@
     background-color: var(--green);
     color: var(--black);
 }
+
+@media screen and (max-width: 575px){
+
+    #left-sidebar, #right-sidebar{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+    #left-sidebar, #right-sidebar{
+        display: none;
+    }
+}
