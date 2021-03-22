@@ -4,5 +4,6 @@
 
 .contact-text-container{
     width: 650px;
+    max-width: 100%;
     margin: 35px auto;
 }
