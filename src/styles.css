@@ -35,3 +35,19 @@ p{
     margin: 75px 0;
     background-color: var(--black) !important;
 }
+
+.contact-btn{
+    background-color: var(--black);
+    border-color: var(--green);
+    border-radius: 5px;
+    color: var(--green);
+    font-size: 1.1rem;
+    padding: 10px 20px;
+}
+
+.contact-btn:hover{
+    background-color: var(--green);
+    border-color: var(--black);
+    color: var(--black);
+    
+}

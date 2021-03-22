@@ -6,19 +6,3 @@
     width: 650px;
     margin: 35px auto;
 }
-
-.contact-btn{
-    background-color: var(--black);
-    border-color: var(--green);
-    border-radius: 5px;
-    color: var(--green);
-    font-size: 1.1rem;
-    padding: 10px 20px;
-}
-
-.contact-btn:hover{
-    background-color: var(--green);
-    border-color: var(--black);
-    color: var(--black);
-    
-}
