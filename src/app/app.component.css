@@ -57,11 +57,19 @@
         display: none;
     }
 
+    .logo{
+        margin-left: 0;
+    }
+
 }
 
 @media screen and (max-width: 767px){
 
     #left-sidebar, #right-sidebar{
         display: none;
+    }
+
+    .logo{
+        margin-left: 0;
     }
 }
