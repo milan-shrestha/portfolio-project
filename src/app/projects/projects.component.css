@@ -65,3 +65,14 @@ p{
     border-radius: 3px;
     padding: 5px 15px;
 }
+
+.github-logo{
+    width: 58px;
+    padding: 4px 8px;
+    
+}
+
+.links-logo:hover{
+    background-color: var(--light-grey);
+    border-color: var(--black);
+}
