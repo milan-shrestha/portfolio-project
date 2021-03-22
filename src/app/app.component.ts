@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'portfolio';
 
   logo: string = './assets/images/logo.png';
+  resume: string = './assets/doc/MilanShresthaResume.pdf';
 
   ScrollIntoView(elem: string) {
 
