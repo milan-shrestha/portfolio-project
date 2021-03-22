@@ -2,8 +2,12 @@
     background-color: var(--black) !important;
 }
 
-.navbar-brand, .nav-link{
+.nav-link{
     color: var(--green) !important;
+}
+
+.nav-link:hover{
+    color: var(--white) !important;
 }
 
 .logo{
@@ -22,7 +26,7 @@
 
 .nav-item{
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    margin-right: 10px;
     cursor: pointer;
 }
 
@@ -31,4 +35,18 @@
     border-radius: 5px;
     background-color: var(--green);
     color: var(--black) !important;
+}
+
+.resume-btn{
+    background-color: var(--black);
+    border-color: var(--green);
+    border-radius: 3px;
+    color: var(--white);
+    margin: 0 20px;
+    padding: 5px 20px;
+}
+
+.resume-btn:hover{
+    background-color: var(--green);
+    color: var(--black);
 }

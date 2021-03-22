@@ -1,28 +1,36 @@
 <div id="projects" class="container">
-    <h3 class="font-weight-bold">Some Projects I've build</h3>
-    <div *ngFor="let project of projects">
-        <div class="row project-container">
-            <div class="col-md-6">
-                <div class="project-image-container">
-                    <img class="img-fluid project-image" src="../../assets/images/{{project.img}}">
-                </div>
-            </div>
-            <div class="col-md-6 project-details-container">
-                <div class="project-details">
-                    <h4 class="font-weight-bold text-right project-title">{{project.title}}</h4>
-                    <div class="project-description">
-                        <p>{{project.description}}</p>
-                    </div>
-                    <!-- <h6>Technologies Used</h6> -->
-                    <ul class="list-inline text-right">
-                        <li class="list-inline-item tech-list" *ngFor="let tech of project.technologies">{{tech}}</li>
-                    </ul>
-                    <div class="project-links text-right">
-                        <a href="{{project.github}}"><img class="links-logo" src="../../assets/images/github.png"></a>
-                        <a href="{{project.live}}"><img class="links-logo" src="../../assets/images/web.png"></a>
+    <div class="jumbotron">
+        <h3 class="font-weight-bold">Some Projects I've build</h3>
+        <div *ngFor="let project of projects">
+            <div class="row project-container">
+                <div class="col-md-6">
+                    <div class="project-image-container">
+                        <img class="img-fluid project-image" src="../../assets/images/{{project.img}}">
                     </div>
                 </div>
+                <div class="col-md-6 project-details-container">
+                    <div class="project-details">
+                        <h4 class="font-weight-bold text-right project-title">{{project.title}}</h4>
+                        <div class="project-description">
+                            <p>{{project.description}}</p>
+                        </div>
+        
+                        <ul class="list-inline text-right">
+                            <li class="list-inline-item tech-list" *ngFor="let tech of project.technologies">{{tech}}</li>
+                        </ul>
+                        <div class="project-links text-right">
+                            <div *ngIf="project.live === ''; else displayBoth">
+                                <a href="{{project.github}}"><img class="links-logo github-logo" src="../../assets/images/github-logo-white.png"></a>
+                            </div>
+
+                            <ng-template #displayBoth>
+                                <a href="{{project.github}}"><img class="links-logo github-logo" src="../../assets/images/github-logo-white.png"></a>
+                                <a href="{{project.live}}"><img class="links-logo" src="../../assets/images/web.png"></a>
+                            </ng-template>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div> 
-</div>>
+        </div> 
+    </div>
+</div>
