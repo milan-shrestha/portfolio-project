@@ -61,6 +61,14 @@
         margin-left: 0;
     }
 
+    .nav-item{
+        margin-right: 0;
+    }
+
+    .resume-btn{
+        margin: 15px 0;
+    }
+
 }
 
 @media screen and (max-width: 767px){
@@ -71,5 +79,13 @@
 
     .logo{
         margin-left: 0;
+    }
+
+    .nav-item{
+        margin-right: 0;
+    }
+
+    .resume-btn{
+        margin: 15px 0;
     }
 }
