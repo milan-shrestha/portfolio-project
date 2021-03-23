@@ -71,11 +71,18 @@ p{
 
     .lead{
         font-size: 1rem;
+        margin-bottom: 15px;
+        line-height: 1.35rem;
     }
 
     .contact-btn{
         font-size: 1rem;
         padding: 5px 15px;
+    }
+
+    h3{
+        font-size: 1.35rem;
+        margin: 15px 0;
     }
 }
 
@@ -99,10 +106,17 @@ p{
 
     .lead{
         font-size: 1rem;
+        margin-bottom: 15px;
+        line-height: 1.35rem;
     }
 
     .contact-btn{
         font-size: 1rem;
         padding: 5px 15px;
+    }
+
+    h3{
+        font-size: 1.35rem;
+        margin: 15px 0;
     }
 }
