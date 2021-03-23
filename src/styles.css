@@ -84,6 +84,10 @@ p{
         font-size: 1.35rem;
         margin: 15px 0;
     }
+
+    p{
+        font-size: 0.9rem;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -118,5 +122,9 @@ p{
     h3{
         font-size: 1.35rem;
         margin: 15px 0;
+    }
+
+    p{
+        font-size: 0.9rem;
     }
 }
