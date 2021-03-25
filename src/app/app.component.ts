@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+
+  logo: string = './assets/images/logo.png';
+  resume: string = './assets/doc/MilanShresthaResume.pdf';
+
+  ScrollIntoView(elem: string) {
+
+    document.querySelector(elem).scrollIntoView({ behavior: 'smooth', block: 'start'});
+  }
 }

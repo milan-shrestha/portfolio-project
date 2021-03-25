@@ -1,0 +1,24 @@
+.display-6{
+    color: var(--green);
+}
+
+.contact-text-container{
+    width: 650px;
+    max-width: 100%;
+    margin: 35px auto;
+}
+
+@media screen and (max-width: 575px){
+
+    .contact-text-container{
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    .contact-text-container{
+        margin: 20px 0;
+    }
+}
+

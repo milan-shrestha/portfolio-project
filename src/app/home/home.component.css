@@ -1,0 +1,39 @@
+.home-text-container{
+    width: 500px;
+    max-width: 100%;
+    margin: 25px 0;
+}
+
+.display-6{
+    color: var(--green);
+}
+
+.display-4{
+    color: var(--white);
+}
+
+.hello-text{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 575px){
+
+    .home-text-container{
+        margin: 15px 0;
+    }
+
+    .hello-text{
+        margin-top: 75px;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    .home-text-container{
+        margin: 15px 0;
+    }
+
+    .hello-text{
+        margin-top: 75px;
+    }
+}

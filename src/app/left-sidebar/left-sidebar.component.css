@@ -1,0 +1,44 @@
+.left-sidebar{
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--black);
+    overflow-x: hidden;
+    margin-top: 50px;
+}
+
+.sidebar-contents{
+    position: absolute;
+	bottom: 0;
+    margin-bottom: 50px;
+}
+
+ul{
+    width: 50px;
+    display: table;
+    margin: 0 auto;
+}
+
+li{
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.social-logo{
+    color: var(--green);
+    font-size: 1.5rem;
+}
+
+.social-logo:hover{
+    color: var(--white);
+}
+
+.vertical-line{
+    border-right: 2px solid var(--green);
+    height: 150px;
+    margin-top: 25px;
+    margin-right: 10px;
+}

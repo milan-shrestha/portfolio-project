@@ -1,1 +1,46 @@
-<app-header></app-header>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#home"><img class="img-fluid logo" src="{{logo}}"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" (click)="ScrollIntoView('#home')">Home</a>
+            <a class="nav-item nav-link" (click)="ScrollIntoView('#about')">About Me</a>
+            <a class="nav-item nav-link" (click)="ScrollIntoView('#skills')">Skills</a>
+            <a class="nav-item nav-link" (click)="ScrollIntoView('#projects')">Projects</a>
+            <a class="nav-item nav-link" (click)="ScrollIntoView('#contact')">Contact</a>
+            <a href="{{resume}}"><button type="button" class="resume-btn">Resume</button></a>
+        </div>
+    </div>
+</nav>
+
+<div id="left-sidebar">
+    <app-left-sidebar></app-left-sidebar>
+</div>
+
+<div id="home">
+    <app-home></app-home>
+</div>
+
+<div id="about">
+    <app-about></app-about>
+</div>
+
+<div id="skills">
+    <app-skills></app-skills>
+</div>
+
+<div id="projects">
+    <app-projects></app-projects>
+</div>
+
+<div id="contact">
+    <app-contact></app-contact>
+</div>
+
+<app-footer></app-footer>
+
+<div id="right-sidebar">
+    <app-right-sidebar></app-right-sidebar>
+</div>

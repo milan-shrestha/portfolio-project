@@ -1,1 +1,130 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&family=Lato&family=Montserrat&family=Roboto&display=swap');
+
+:root{
+    --black: #0B0C10;
+    --green: #66FCF1;
+    --light-grey: #C5C6C7;
+    --white: #F2F2F2;
+}
+
+body{
+    background-color: var(--black);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    color: var(--white);
+    margin: 25px 0;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--light-grey);
+}
+
+.lead{
+    font-size: 1.1rem;
+}
+
+.jumbotron{
+    margin: 75px 0;
+    background-color: var(--black) !important;
+}
+
+.contact-btn{
+    background-color: var(--black);
+    border-color: var(--green);
+    border-radius: 5px;
+    color: var(--green);
+    font-size: 1.1rem;
+    padding: 10px 20px;
+}
+
+.contact-btn:hover{
+    background-color: var(--green);
+    border-color: var(--black);
+    color: var(--black);    
+}
+
+@media screen and (max-width: 575px){
+
+    .container{
+        padding: 0 3px;
+    }
+
+    .jumbotron{
+        margin: 25px 0;
+    }
+
+    .display-6{
+        font-size: 1.25rem;
+    }
+
+    .display-4{
+        font-size: 1.5rem;
+    }
+
+    .lead{
+        font-size: 1rem;
+        margin-bottom: 15px;
+        line-height: 1.35rem;
+    }
+
+    .contact-btn{
+        font-size: 1rem;
+        padding: 5px 15px;
+    }
+
+    h3{
+        font-size: 1.35rem;
+        margin: 15px 0;
+    }
+
+    p{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    .container{
+        padding: 0 3px;
+    }
+
+    .jumbotron{
+        margin: 25px 0;
+    }
+
+    .display-6{
+        font-size: 1.25rem;
+    }
+
+    .display-4{
+        font-size: 1.5rem;
+    }
+
+    .lead{
+        font-size: 1rem;
+        margin-bottom: 15px;
+        line-height: 1.35rem;
+    }
+
+    .contact-btn{
+        font-size: 1rem;
+        padding: 5px 15px;
+    }
+
+    h3{
+        font-size: 1.35rem;
+        margin: 15px 0;
+    }
+
+    p{
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,51 @@
+h5{
+    color: var(--white);
+    margin-bottom: 25px;
+}
+
+li{
+    color: var(--white);
+}
+
+.list-inline-item{
+    margin-right: 25px;
+}
+
+.skills-logo{
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 575px){
+
+    h5{
+        font-size: 1.15rem;
+        margin-bottom: 15px;
+    }
+
+    .list-inline-item{
+        margin-right: 20px;
+    }
+
+    .skills-logo{
+        width: 35px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    h5{
+        font-size: 1.15rem;
+        margin-bottom: 15px;
+    }
+
+    .list-inline-item{
+        margin-right: 20px;
+    }
+
+    .skills-logo{
+        width: 35px;
+    }
+}
+
+
