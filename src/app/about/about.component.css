@@ -20,3 +20,17 @@
     opacity: 1;
     transition: 0.5s ease;
 } 
+
+@media screen and (max-width: 575px){
+
+    .image-container{
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    .image-container{
+        max-width: 85%;
+    }
+}
