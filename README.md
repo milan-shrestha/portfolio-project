@@ -1,27 +1,28 @@
-# Portfolio
+# My Portfolio 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
+## Overview
+This is my first portfolio as a Software Engineer. I started learning programming about a year ago. I'd an opportunity to attend programming course provided by LaunchCode from St. Louis where I got foundational knowledge in JavaScript & Java and also learned to use some frameworks and tools like Angular, Spring Boot, Thymeleaf, MySQL, Hibernate etc.
 
-## Development server
+I picked Angular as a frontend framework for my portfolio app. I wanted to learn more about Angular while building my project.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Technologies Used
+- Angular
+- TypeScript
+- Bootstrap
+- HTML/CSS
 
-## Code scaffolding
+## Live Portfolio 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+My portfolio can be viewed at [***milanshrestha.dev***](https://milanshrestha.dev)
 
-## Build
+It is being hosted via Github Pages.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Snapshot of my portfolio
 
-## Running unit tests
+### Desktop View
+![Desktop View](./src/assets/images/portfolio.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Mobile View
+![Mobile View](./src/assets/images/portfolio-mobile.png)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
