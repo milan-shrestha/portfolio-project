@@ -23,10 +23,12 @@ ul{
 
     ul{
         visibility: visible;
+        margin-bottom: 5px;
     }
 
-    .list-inline{
-        margin-bottom: 5px;
+    .footer-social-logo{
+        font-size: 1.25rem;
+        margin-right: 10px;
     }
 
     a{
@@ -47,10 +49,12 @@ ul{
 
     ul{
         visibility: visible;
+        margin-bottom: 5px;
     }
 
-    .list-inline{
-        margin-bottom: 5px;
+    .footer-social-logo{
+        font-size: 1.25rem;
+        margin-right: 10px;
     }
 
     a{
